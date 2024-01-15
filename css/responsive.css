@@ -1,0 +1,19 @@
+/* Mobile Media Query */
+
+@media only screen and (min-width: 600px) {
+}
+
+/* Tablet Media Query */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Laptop / Desktop Media Query */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Media Query */
+
+@media only screen and (min-width: 1200px) {
+}
