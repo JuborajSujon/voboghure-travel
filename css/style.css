@@ -125,6 +125,10 @@ a {
 
 /* Header Section Start */
 /* Navbar Section Start */
+
+.header-section {
+  padding-bottom: 3rem;
+}
 .header-section-container {
   display: flex;
   justify-content: space-between;
@@ -223,3 +227,43 @@ a {
 .primary-btn__userform i {
   margin-right: 0.4rem;
 }
+
+/* Popular tour Section End */
+.popular-tour {
+  padding: 0rem 0 2rem;
+}
+
+.popular-tour-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.popular-tour-content p {
+  padding: 1rem 0 0.5rem 0;
+  line-height: 1.5rem;
+}
+.popular-tour-content ul {
+  padding-left: 3rem;
+}
+.popular-tour-content li {
+  list-style-type: disc;
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.popular-tour-content button {
+  margin: 1.5rem 0;
+}
+
+.popoler-tour-img {
+  height: 100%;
+  width: 100%;
+}
+.popoler-tour-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Popular tour Section End */

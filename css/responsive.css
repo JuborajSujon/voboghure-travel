@@ -55,6 +55,10 @@
     font-size: 1.125rem;
     font-weight: 700;
   }
+
+  .heading-1__banner {
+    font-size: 2rem;
+  }
 }
 
 /* Tablet Media Query */
@@ -69,6 +73,53 @@
   }
   .logo .heading-3__small {
     font-size: 1.75rem;
+  }
+  /* banner form */
+  .banner .bander-container {
+    padding: 4rem 1.5rem;
+  }
+  .heading-1__banner {
+    font-size: 3rem;
+  }
+
+  .text-light__banner {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 60%;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+
+  .user-form {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .user-form .form-item {
+    flex: 1 1 25%;
+  }
+
+  .primary-btn__userform {
+    width: max-content;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Popular tour section */
+  .popular-tour {
+    padding: 4rem 0 4rem;
+  }
+  .popular-tour-container {
+    flex-direction: row;
+  }
+  .popular-tour-content {
+    flex: 1 1 50%;
+  }
+  .popular-tour-img {
+    flex: 1 1 50%;
+    height: 100%;
+    align-self: flex-start;
   }
 }
 
@@ -90,7 +141,11 @@
     gap: 0rem;
   }
 
-  /*  */
+  /* banner form */
+  .user-form {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 /* Large Media Query */
