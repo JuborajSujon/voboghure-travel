@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Influencer Gear</title>
+    <title>Voboghure Travel</title>
 
     <!-- Font awesome cdn link -->
     <link
@@ -21,7 +21,82 @@
   </head>
   <body>
     <!-- Header section start -->
-    <header></header>
+    <header class="header-section">
+      <!-- Navbar Section Start -->
+      <section class="container header-section-container">
+        <div class="logo">
+          <img src="./Images/logo.png" alt="Brand logo" />
+          <h2 class="heading-1 heading-3__small">
+            Voboghure <span class="heading-3__brand-name">Travel</span>
+          </h2>
+        </div>
+
+        <label class="toggler-label" for="toggler">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="toggler" />
+
+        <nav class="menu">
+          <ul class="menu-list">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <!-- Navbar Section End -->
+
+      <!-- Banner section start -->
+      <section class="banner">
+        <div class="container bander-container">
+          <div class="banner-content">
+            <h1 class="heading-1 heading-1__banner">Explore Your Journey</h1>
+            <p class="text-light text-light__banner">
+              Welcome to Voboghure Travel, where your journey begins! Embark on
+              unforgettable adventures, discover hidden gems, and create
+              timeless memories. Explore Your Travel with us, your gateway to
+              extraordinary experiences
+            </p>
+          </div>
+          <div class="banner-form-container">
+            <form class="user-form">
+              <!-- Destination input -->
+              <label for="destination"></label>
+              <input
+                class="primary-input"
+                type="text"
+                name="destination"
+                id="destination"
+                placeholder="Where go" />
+
+              <!-- Date input -->
+              <div class="select-container">
+                <select class="primary-input" name="date" id="date">
+                  <option value="date" disabled>When</option>
+                  <option value="January">January</option>
+                </select>
+              </div>
+
+              <!-- Select type -->
+              <div class="select-container">
+                <select class="primary-input" name="type" id="type">
+                  <option value="type" disabled>Type</option>
+                  <option value="Hiking">Hiking</option>
+                  <option value="Camping">Camping</option>
+                </select>
+              </div>
+
+              <button class="primary-btn primary-btn__userform">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Find now
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </header>
     <!-- Header section end -->
     <!-- Main section start -->
     <main></main>
