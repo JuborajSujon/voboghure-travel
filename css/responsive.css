@@ -204,6 +204,9 @@
   .choose-our-content {
     width: 60%;
   }
+  .heading-1__destination {
+    font-size: 2.5rem;
+  }
   .choose-our-grid-section {
     padding: 3rem 0;
     grid-template-columns: repeat(12, 1fr);
@@ -229,6 +232,15 @@
   }
   .choose-our-bg-7 {
     grid-column: span 7;
+  }
+
+  /* Why Choose Us */
+  .heading-1__whychoose {
+    font-size: 2.5rem;
+  }
+  /* Footer section */
+  .footer {
+    padding: 3rem 0;
   }
 
   .footer-logo img {
