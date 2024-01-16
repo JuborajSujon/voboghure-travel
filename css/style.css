@@ -459,3 +459,45 @@ a {
   font-weight: 600;
 }
 /* Newsletter Section End */
+
+/* Footer section start */
+.footer {
+  padding: 2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.footer-logo img {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.footer-logo h2 {
+  color: var(--primary-color);
+}
+.footer-container p {
+  padding: 0 0 1rem 0;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.social-link a {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.social-link a i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+p.copyright {
+  padding: 1rem 0;
+}
+/* Footer section end */

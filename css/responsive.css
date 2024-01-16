@@ -230,6 +230,16 @@
   .choose-our-bg-7 {
     grid-column: span 7;
   }
+
+  .footer-logo img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer-logo .heading-3__footer {
+    color: var(--primary-color);
+    font-size: 2rem;
+  }
 }
 
 /* Large Media Query */
