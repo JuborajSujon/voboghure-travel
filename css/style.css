@@ -257,14 +257,16 @@ a {
   margin: 1.5rem 0;
 }
 
-.popoler-tour-img {
-  height: 100%;
+.popular-tour-container .popular-tour-img {
+  min-height: 100%;
   width: 100%;
+  border-radius: 0.5rem;
 }
 .popoler-tour-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 /* Popular tour Section End */
 
@@ -276,6 +278,10 @@ a {
   text-align: center;
   width: 85%;
   margin: 0 auto;
+}
+
+.choose-our-content h2 {
+  padding-bottom: 1rem;
 }
 .choose-our-bg-1 {
   border-radius: 0.67rem;
@@ -359,3 +365,97 @@ a {
   gap: 1rem;
 }
 /* Choose Your Destination section end */
+
+/* Why Choose Us Section Start */
+.why-choose-us {
+  padding: 0 0 2rem;
+}
+
+.why-choose-card-container {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.why-choose-card {
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 2rem;
+}
+.why-choose-card h3 {
+  padding: 1rem 0;
+}
+
+.why-choose-card-container .card-item-1 {
+  background-color: #fffbf7;
+}
+.why-choose-card-container .card-item-2 {
+  background-color: #f4fdff;
+}
+.why-choose-card-container .card-item-3 {
+  background-color: #fef6f6;
+}
+
+/* Why Choose Us Section End */
+
+/* Newsletter Section Start */
+.newsletter {
+  padding: 0 0 2rem;
+}
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.newsletter-form__userform {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ff5400;
+}
+
+.newsletter-form__userform input {
+  background-color: #f3f3f3;
+}
+
+.primary-btn__userform {
+  font-weight: 600;
+}
+
+.newsletter-content {
+  position: relative;
+}
+
+.newsletter-discount {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  border-radius: 0.675rem;
+  width: 200px;
+  margin-left: auto;
+  position: absolute;
+  bottom: 3.1rem;
+  right: 0;
+  transform: rotate(-35deg);
+}
+
+.newsletter-discount p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.newsletter-discount h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* Newsletter Section End */

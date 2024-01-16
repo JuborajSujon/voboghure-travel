@@ -123,6 +123,9 @@
   .popular-tour-content {
     flex: 1 1 50%;
   }
+  .popular-tour-content h2 {
+    font-size: 2rem;
+  }
   .popular-tour-img {
     flex: 1 1 50%;
     height: 100%;
@@ -137,6 +140,40 @@
     padding: 2rem 0;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 180px);
+  }
+
+  /* Why Choose Us */
+  .why-choose-card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .why-choose-card {
+    width: 48%;
+  }
+
+  /* Newsletter user Form */
+  .newsletter-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .newsletter-form {
+    flex: 1 1 45%;
+    align-self: flex-start;
+  }
+
+  .newsletter-form__userform {
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .newsletter-form__userform button {
+    width: 100%;
+    padding: 1rem 0;
   }
 }
 
