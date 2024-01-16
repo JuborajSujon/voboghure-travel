@@ -59,6 +59,13 @@
   .heading-1__banner {
     font-size: 2rem;
   }
+
+  /* Choose our Destination */
+  .choose-our-grid-section {
+    padding: 2rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 180px);
+  }
 }
 
 /* Tablet Media Query */
@@ -121,6 +128,16 @@
     height: 100%;
     align-self: flex-start;
   }
+  /* Choose Your Destination */
+  .choose-our-content {
+    width: 75%;
+  }
+
+  .choose-our-grid-section {
+    padding: 2rem 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 180px);
+  }
 }
 
 /* Laptop / Desktop Media Query */
@@ -145,6 +162,36 @@
   .user-form {
     width: 70%;
     margin: 0 auto;
+  }
+  /* Choose Your Destination */
+  .choose-our-content {
+    width: 60%;
+  }
+  .choose-our-grid-section {
+    padding: 3rem 0;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 300px);
+  }
+  .choose-our-bg-1 {
+    grid-column: span 6;
+  }
+  .choose-our-bg-2 {
+    grid-column: span 6;
+  }
+  .choose-our-bg-3 {
+    grid-column: span 3;
+  }
+  .choose-our-bg-4 {
+    grid-column: span 6;
+  }
+  .choose-our-bg-5 {
+    grid-column: span 3;
+  }
+  .choose-our-bg-6 {
+    grid-column: span 5;
+  }
+  .choose-our-bg-7 {
+    grid-column: span 7;
   }
 }
 
