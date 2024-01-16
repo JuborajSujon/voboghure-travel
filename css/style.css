@@ -1,6 +1,10 @@
 /* Import Mulish form Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap");
 
+/* Import Inter form Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+/* font-family: 'Inter', sans-serif; */
+
 /* Global styles */
 * {
   margin: 0;
@@ -10,6 +14,7 @@
 :root {
   --primary-color: #131318;
   --secondary-color: #ff5400;
+  --clr-gray: #424247;
   --clr-grey-medium: rgba(19, 19, 24, 0.7);
   --clr-grey-light: #5a5a5d;
   --clr-slate-100: #d9dbe1;
@@ -23,6 +28,8 @@ html {
 body {
   font-family: "Mulish", sans-serif;
   background-color: var(--clr-white);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 img {
@@ -39,3 +46,85 @@ ul li {
 a {
   text-decoration: none;
 }
+
+/* End of global styles */
+
+/* Reusable Utility classes start */
+.container {
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.heading-1 {
+  color: var(--clr-white);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.heading-2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.heading-3 {
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.sub-heading {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.img-heading {
+  color: var(--clr-white);
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.list-1 {
+  color: var(--clr-gray);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.list-2 {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.625rem;
+}
+
+.text-grey-medium {
+  color: var(--clr-grey-medium);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.text-grey-light {
+  color: var(--clr-grey-light);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.input-text {
+  color: var(--clr-grey-medium);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.primary-btn {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: var(--clr-white);
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+/* Reusable Utility classes end */
