@@ -121,6 +121,7 @@
     flex-direction: row;
   }
   .popular-tour-content {
+    align-self: flex-start;
     flex: 1 1 50%;
   }
   .popular-tour-content h2 {
@@ -131,6 +132,7 @@
     height: 100%;
     align-self: flex-start;
   }
+
   /* Choose Your Destination */
   .choose-our-content {
     width: 75%;
@@ -232,6 +234,9 @@
   }
   .choose-our-bg-7 {
     grid-column: span 7;
+  }
+  .heading-1__discover {
+    font-size: 2.5rem;
   }
 
   /* Why Choose Us */
